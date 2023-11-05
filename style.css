@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.choiceBtn{
+line-height: 30px;
+width: 150px;
+border-radius: 5px;
+color: #ffffff;
+background-color: #008000;
+margin-top: 20px;
+}
+.choiceBtn:hover{
+    color: #008000;
+    background-color: #ffffff;
+}
+.exitBtn{
+    line-height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ff0000;
+    }
+    .exitBtn:hover{
+        color: #ffffff;
+        background-color: #700c0c;
+    }
+#playerText{
+    color: white;
+}
+#computerText{
+    color: #87ceeb;
+}
+#resultText{
+    color: #ff0000;
+}
+#gameDiv{
+    font-family: cursive;
+    border: 3px solid #ffffff;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: sky;
+    text-align: center;
+}
+@media only screen and (max-width:620px) {
+    .choiceBtn,
+    .exitBtn{
+        margin:10px;
+        width: 90px;
+    }
+}
