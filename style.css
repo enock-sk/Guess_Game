@@ -7,23 +7,29 @@ line-height: 30px;
 width: 150px;
 border-radius: 5px;
 color: #ffffff;
-background-color: #008000;
+background-color: #000;
 margin-top: 20px;
+transition: all 800ms;
+font-weight: 800;
 }
 .choiceBtn:hover{
-    color: #008000;
+    color: #000;
     background-color: #ffffff;
+    transition: all 500ms;
 }
 .exitBtn{
     line-height: 30px;
-    width: 150px;
+    width: 110px;
     border-radius: 5px;
     color: #ffffff;
-    background-color: #ff0000;
+    background-color: #c50404;
+    font-weight: 800;
+    transition: all 800ms;
     }
     .exitBtn:hover{
         color: #ffffff;
         background-color: #700c0c;
+        transition: all 500ms;
     }
 #playerText{
     color: white;
@@ -32,20 +38,23 @@ margin-top: 20px;
     color: #87ceeb;
 }
 #resultText{
-    color: #ff0000;
+    color: #87ceeb;
 }
 #gameDiv{
     font-family: cursive;
-    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 10px #fff;
     border-radius: 25px;
-    padding: 10px;
+    padding: 15px;
     background-color: sky;
     text-align: center;
+}
+body{
+    margin: 10vh;
 }
 @media only screen and (max-width:620px) {
     .choiceBtn,
     .exitBtn{
-        margin:10px;
-        width: 90px;
+        margin:5px;
+        width: 95px;
     }
 }
