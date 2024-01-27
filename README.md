@@ -21,6 +21,8 @@ Welcome to the Word Guessing Game, an engaging and interactive web-based game bu
 - **HTML**: For structuring the web content.
 - **CSS**: For styling and layout adjustments.
 - **JavaScript**: For game logic and interactions.
+- ![Word Guessing Game Interface](/path/to/your/screenshot.png)
+*Screenshot of the Word Guessing Game Interface*
 
 ## Installation
 
