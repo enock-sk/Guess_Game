@@ -28,4 +28,4 @@ To play the game locally, follow these steps:
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/yourusername/word-guessing-game.git
+   git clone https://github.com/enock-sk/Guess_Game.git
